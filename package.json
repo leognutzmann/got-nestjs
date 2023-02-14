@@ -1,0 +1,25 @@
+{
+  "name": "@gnutzmann/got-nestjs",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leognutzmann/got-nestjs.git"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "got": "^11.8.6"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8",
+    "typescript": "^4"
+  }
+}
