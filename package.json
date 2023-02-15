@@ -1,11 +1,10 @@
 {
-  "name": "got-nestjs",
+  "name": "@gnutzmann/got-nestjs",
   "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/leognutzmann/got-nestjs.git"
   },
-  "author": "Gnutzmann",
   "main": "dist/index.js",
   "license": "MIT",
   "types": "dist/index.d.ts",
